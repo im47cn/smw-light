@@ -13,7 +13,7 @@ pd.options.display.float_format = '{:,.2f}'.format
 
 def read_data(file):
     try:
-        df = pd.read_csv(file, header=None, nrows=8, names=['sector', 'data'])
+        df = pd.read_csv(file, header=None, nrows=240, names=['sector', 'data'])
         df.set_index('sector', inplace=True)
     except Exception as e:
         print(e)
@@ -67,9 +67,10 @@ class get():
                                'sector', 'industry', 'code', 'name', 'RecommendMA', 'close', 'ema5', 'sma5', 'ema10', 'sma10', 'ema20', 'sma20'])
             df1.reset_index()
 
-            df1['ma5'] = df1.apply(lambda x: x['close'] > x['sma5'], axis=1)
-            df1['ma10'] = df1.apply(lambda x: x['close'] > x['sma10'], axis=1)
-            df1['ma20'] = df1.apply(lambda x: x['close'] > x['sma20'], axis=1)
+            # 采用ema是为了更及时的反应方向和力度
+            df1['ma5'] = df1.apply(lambda x: x['close'] > x['ema5'], axis=1)
+            df1['ma10'] = df1.apply(lambda x: x['close'] > x['ema10'], axis=1)
+            df1['ma20'] = df1.apply(lambda x: x['close'] > x['ema20'], axis=1)
             # print(df1)
 
             df1.drop(['industry', 'code', 'name', 'RecommendMA', 'close', 'ema5',
@@ -102,8 +103,16 @@ class get():
 
 
 '''run'''
+# if __name__ == '__main__':
+#     url = os.environ["SCAN_URL"]
+#     data = os.environ["SCAN_PARAM"]
+#     sign_in = get(url=url, data=data)
+#     sign_in.run()
+
+
+'''run'''
 if __name__ == '__main__':
-    url = os.environ["SCAN_URL"]
-    data = os.environ["SCAN_PARAM"]
+    url = 'https://scanner.tradingview.com/china/scan'
+    data = '{"options":{"active_symbols_only":true,"lang":"zh"},"symbols":{"query":{"types":[]},"tickers":[]},"columns":["sector","industry","name","description","Recommend.MA|5","close|5","EMA5|5","SMA5|5","EMA10|5","SMA10|5","EMA20|5","SMA20|5"],"sort":{"sortBy":"industry","sortOrder":"asc"},"range":[0,4500]}'
     sign_in = get(url=url, data=data)
     sign_in.run()

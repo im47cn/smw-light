@@ -5,9 +5,9 @@ on:
     branches:
       - develop
   schedule:
-    - cron: "31,35,40,45,50,55 1 * * 1-5"
-    - cron: "*/5 2,5,6 * * 1-5"
-    - cron: "0,5,15,20,25,31 3 * * 1-5"
+    - cron: "31,40,50 1 * * 1-5"
+    - cron: "*/10 2,5,6 * * 1-5"
+    - cron: "0,10,20,31 3 * * 1-5"
     - cron: "31 7 * * 1-5"
 
 env:
@@ -31,11 +31,16 @@ jobs:
           python-version: "3.x"
       - name: "Install dependencies"
         run: python -m pip install --upgrade pandas requests
-      - name: "Update data"
+      - name: "Update smw data"
         env:
           SCAN_URL: ${{ secrets.SCAN_URL }}
           SCAN_PARAM: ${{ secrets.SCAN_PARAM }}
-        run: python scan.py
+        run: python scan_smw.py
+      - name: "Update long data"
+        env:
+          SCAN_URL: ${{ secrets.SCAN_URL_LONG }}
+          SCAN_PARAM: ${{ secrets.SCAN_PARAM_LONG }}
+        run: python scan_bb_long.py
       - name: "Commit"
         run: |
           git config --global user.name ${{ secrets.GIT_NAME }}
@@ -46,3 +51,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GIT_TK }}
+          force: true
