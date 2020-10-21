@@ -52,9 +52,13 @@ class get():
             # print(df1)
 
             # 买入区间
+            if df1.empty:
+                return
+            
             df1['buy_line'] = df1.apply(lambda x: x['ema20'] + (x['BB.upper'] - x['ema20'])/4, axis=1)
             df1['prepare_zone'] = df1.apply(lambda x: x['close'] >= x['ema20'] and x['close'] <= x['buy_line'], axis=1)
             df1.drop(df1[~df1.prepare_zone].index, inplace=True)
+            df1.drop(['prepare_zone'], axis=1, inplace=True)
             # print(df1)
 
             # df1['prepare_zone2'] = df1.apply(lambda x: (x['buy_line'] - x['close.1']) > (x['buy_line'] - x['close']) and (x['close.1'] - x['ema20']) < (x['close'] - x['ema20']), axis=1)
@@ -62,11 +66,11 @@ class get():
             # df1.drop(['prepare_zone2'], axis=1, inplace=True)
             # print(df1)
 
-            df1.drop(['prepare_zone', 'RecommendMA', 'close.1', 'ema20.1', 'sma50.1'], axis=1, inplace=True)
-
             if df1.empty:
                 return
 
+            df1.drop(['RecommendMA', 'close.1', 'ema20.1', 'sma50.1'], axis=1, inplace=True)
+            
             df1['reward_rate'] = df1.apply(lambda x: (x['BB.upper'] - x['close'])/(x['close'] - x['ema20']), axis=1)
             df1.sort_values(by='reward_rate', ascending=False, inplace=True)
             print(df1)
