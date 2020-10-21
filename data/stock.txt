@@ -1,0 +1,237 @@
+20201016
+
+个股：
+   1 603928,兴业股份,Process Industries,Industrial Specialties
+   1 603313,梦百合,Consumer Durables,Home Furnishings
+
+一级行业：
+   1 Process Industries
+   1 Consumer Durables
+
+二级行业：
+   1 Process Industries,Industrial Specialties
+   1 Consumer Durables,Home Furnishings
+
+20201015
+
+个股：
+   4 603928,兴业股份,Process Industries,Industrial Specialties
+   4 300613,富瀚微,Electronic Technology,Semiconductors
+   3 300360,炬华科技,Producer Manufacturing,Electrical Products
+   2 002896,中大力德,Producer Manufacturing,Industrial Machinery
+   1 603378,亚士创能,Process Industries,Industrial Specialties
+   1 601877,正泰电器,Producer Manufacturing,Electrical Products
+   1 300566,激智科技,Process Industries,Containers/Packaging
+   1 300196,长海股份,Producer Manufacturing,Miscellaneous Manufacturing
+
+一级行业：
+   7 Producer Manufacturing
+   6 Process Industries
+   4 Electronic Technology
+
+二级行业：
+   5 Process Industries,Industrial Specialties
+   4 Producer Manufacturing,Electrical Products
+   4 Electronic Technology,Semiconductors
+   2 Producer Manufacturing,Industrial Machinery
+   1 Producer Manufacturing,Miscellaneous Manufacturing
+   1 Process Industries,Containers/Packaging
+
+20201014
+
+个股：
+   5 603639,海利尔,Process Industries,Chemicals: Agricultural
+   5 002896,中大力德,Producer Manufacturing,Industrial Machinery
+   4 300360,炬华科技,Producer Manufacturing,Electrical Products
+   3 200596,古井贡Ｂ,Consumer Non-Durables,Beverages: Alcoholic
+   2 603466,风语筑,Technology Services,Information Technology Services
+   1 603444,吉比特,Technology Services,Packaged Software
+   1 603378,亚士创能,Process Industries,Industrial Specialties
+   1 002849,威星智能,Producer Manufacturing,Industrial Machinery
+
+一级行业：
+  10 Producer Manufacturing
+   6 Process Industries
+   3 Technology Services
+   3 Consumer Non-Durables
+
+二级行业：
+   6 Producer Manufacturing,Industrial Machinery
+   5 Process Industries,Chemicals: Agricultural
+   4 Producer Manufacturing,Electrical Products
+   3 Consumer Non-Durables,Beverages: Alcoholic
+   2 Technology Services,Information Technology Services
+   1 Technology Services,Packaged Software
+   1 Process Industries,Industrial Specialties
+
+20201013
+
+个股：
+   3 603915,国茂股份,Producer Manufacturing,Industrial Machinery
+   3 601799,星宇股份,Producer Manufacturing,Auto Parts: OEM
+   3 600426,华鲁恒升,Process Industries,Chemicals: Major Diversified
+   3 300360,炬华科技,Producer Manufacturing,Electrical Products
+   2 300668,杰恩设计,Commercial Services,Miscellaneous Commercial Services
+   2 300244,迪安诊断,Health Services,Medical/Nursing Services
+   1 603809,豪能股份,Distribution Services,Wholesale Distributors
+   1 300613,富瀚微,Electronic Technology,Semiconductors
+   1 300505,川金诺,Process Industries,Chemicals: Agricultural
+   1 002597,金禾实业,Process Industries,Chemicals: Specialty
+   1 000786,北新建材,Non-Energy Minerals,Construction Materials
+
+一级行业：
+   9 Producer Manufacturing
+   5 Process Industries
+   2 Health Services
+   2 Commercial Services
+   1 Non-Energy Minerals
+   1 Electronic Technology
+   1 Distribution Services
+
+二级行业：
+   3 Producer Manufacturing,Industrial Machinery
+   3 Producer Manufacturing,Electrical Products
+   3 Producer Manufacturing,Auto Parts: OEM
+   3 Process Industries,Chemicals: Major Diversified
+   2 Health Services,Medical/Nursing Services
+   2 Commercial Services,Miscellaneous Commercial Services
+   1 Process Industries,Chemicals: Specialty
+   1 Process Industries,Chemicals: Agricultural
+   1 Non-Energy Minerals,Construction Materials
+   1 Electronic Technology,Semiconductors
+   1 Distribution Services,Wholesale Distributors
+
+20201012
+
+个股：
+   5 300617,安靠智电,Industrial Services,Engineering & Construction
+   4 300360,炬华科技,Producer Manufacturing,Electrical Products
+   4 300244,迪安诊断,Health Services,Medical/Nursing Services
+   4 002773,康弘药业,Health Technology,Pharmaceuticals: Other
+   3 603926,铁流股份,Producer Manufacturing,Auto Parts: OEM
+   3 300668,杰恩设计,Commercial Services,Miscellaneous Commercial Services
+   3 002597,金禾实业,Process Industries,Chemicals: Specialty
+   2 603915,国茂股份,Producer Manufacturing,Industrial Machinery
+   2 603856,东宏股份,Producer Manufacturing,Miscellaneous Manufacturing
+   2 603657,春光科技,Producer Manufacturing,Miscellaneous Manufacturing
+   2 603520,司太立,Health Technology,Medical Specialties
+   2 603369,今世缘,Consumer Non-Durables,Beverages: Alcoholic
+   2 601799,星宇股份,Producer Manufacturing,Auto Parts: OEM
+   2 601163,三角轮胎,Consumer Durables,Automotive Aftermarket
+   2 300751,迈为股份,Producer Manufacturing,Building Products
+   2 300642,透景生命,Health Services,Medical/Nursing Services
+   2 300545,联得装备,Producer Manufacturing,Industrial Machinery
+   2 002849,威星智能,Producer Manufacturing,Industrial Machinery
+   2 000596,古井贡酒,Consumer Non-Durables,Beverages: Alcoholic
+   1 603928,兴业股份,Process Industries,Industrial Specialties
+   1 603867,新化股份,Process Industries,Chemicals: Specialty
+   1 603658,安图生物,Health Technology,Medical Specialties
+   1 603589,口子窖,Consumer Non-Durables,Beverages: Alcoholic
+   1 603378,亚士创能,Process Industries,Industrial Specialties
+   1 600779,水井坊,Consumer Non-Durables,Beverages: Alcoholic
+   1 600764,中国海防,Electronic Technology,Telecommunications Equipment
+   1 600346,恒力石化,Producer Manufacturing,Industrial Machinery
+   1 300755,华致酒行,Retail Trade,Specialty Stores
+   1 300692,中环环保,Industrial Services,Environmental Services
+   1 300582,英飞特,Electronic Technology,Electronic Production Equipment
+   1 300196,长海股份,Producer Manufacturing,Miscellaneous Manufacturing
+   1 002940,昂利康,Health Technology,Pharmaceuticals: Other
+
+一级行业：
+  23 Producer Manufacturing
+   8 Health Technology
+   6 Process Industries
+   6 Industrial Services
+   6 Health Services
+   6 Consumer Non-Durables
+   3 Commercial Services
+   2 Electronic Technology
+   2 Consumer Durables
+   1 Retail Trade
+
+二级行业：
+   7 Producer Manufacturing,Industrial Machinery
+   6 Health Services,Medical/Nursing Services
+   6 Consumer Non-Durables,Beverages: Alcoholic
+   5 Producer Manufacturing,Miscellaneous Manufacturing
+   5 Producer Manufacturing,Auto Parts: OEM
+   5 Industrial Services,Engineering & Construction
+   5 Health Technology,Pharmaceuticals: Other
+   4 Producer Manufacturing,Electrical Products
+   4 Process Industries,Chemicals: Specialty
+   3 Health Technology,Medical Specialties
+   3 Commercial Services,Miscellaneous Commercial Services
+   2 Producer Manufacturing,Building Products
+   2 Process Industries,Industrial Specialties
+   2 Consumer Durables,Automotive Aftermarket
+   1 Retail Trade,Specialty Stores
+   1 Industrial Services,Environmental Services
+   1 Electronic Technology,Telecommunications Equipment
+   1 Electronic Technology,Electronic Production Equipment
+
+20201009
+
+个股：
+   3 603520,司太立,Health Technology,Medical Specialties
+   3 601163,三角轮胎,Consumer Durables,Automotive Aftermarket
+   3 300624,万兴科技,Technology Services,Packaged Software
+   2 603985,恒润股份,Producer Manufacturing,Industrial Machinery
+   2 603906,龙蟠科技,Process Industries,Industrial Specialties
+   2 600580,卧龙电驱,Producer Manufacturing,Electrical Products
+   2 300692,中环环保,Industrial Services,Environmental Services
+   2 300566,激智科技,Process Industries,Containers/Packaging
+   2 300285,国瓷材料,Process Industries,Chemicals: Specialty
+   2 002597,金禾实业,Process Industries,Chemicals: Specialty
+   2 002242,九阳股份,Consumer Durables,Electronics/Appliances
+   1 603915,国茂股份,Producer Manufacturing,Industrial Machinery
+   1 603639,海利尔,Process Industries,Chemicals: Agricultural
+   1 603638,艾迪精密,Producer Manufacturing,Trucks/Construction/Farm Machinery
+   1 603181,皇马科技,Process Industries,Chemicals: Specialty
+   1 600742,一汽富维,Producer Manufacturing,Auto Parts: OEM
+   1 600511,国药股份,Health Technology,Pharmaceuticals: Major
+   1 600426,华鲁恒升,Process Industries,Chemicals: Major Diversified
+   1 300755,华致酒行,Retail Trade,Specialty Stores
+   1 300751,迈为股份,Producer Manufacturing,Building Products
+   1 300642,透景生命,Health Services,Medical/Nursing Services
+   1 300617,安靠智电,Industrial Services,Engineering & Construction
+   1 300196,长海股份,Producer Manufacturing,Miscellaneous Manufacturing
+   1 200596,古井贡Ｂ,Consumer Non-Durables,Beverages: Alcoholic
+   1 002803,吉宏股份,Process Industries,Containers/Packaging
+   1 002643,万润股份,Process Industries,Chemicals: Specialty
+   1 002493,荣盛石化,Process Industries,Textiles
+
+一级行业：
+  14 Process Industries
+   9 Producer Manufacturing
+   5 Consumer Durables
+   4 Health Technology
+   3 Technology Services
+   3 Industrial Services
+   1 Retail Trade
+   1 Health Services
+   1 Consumer Non-Durables
+
+二级行业：
+   6 Process Industries,Chemicals: Specialty
+   3 Technology Services,Packaged Software
+   3 Producer Manufacturing,Industrial Machinery
+   3 Process Industries,Containers/Packaging
+   3 Health Technology,Medical Specialties
+   3 Consumer Durables,Automotive Aftermarket
+   2 Producer Manufacturing,Electrical Products
+   2 Process Industries,Industrial Specialties
+   2 Industrial Services,Environmental Services
+   2 Consumer Durables,Electronics/Appliances
+   1 Retail Trade,Specialty Stores
+   1 Producer Manufacturing,Trucks/Construction/Farm Machinery
+   1 Producer Manufacturing,Miscellaneous Manufacturing
+   1 Producer Manufacturing,Building Products
+   1 Producer Manufacturing,Auto Parts: OEM
+   1 Process Industries,Textiles
+   1 Process Industries,Chemicals: Major Diversified
+   1 Process Industries,Chemicals: Agricultural
+   1 Industrial Services,Engineering & Construction
+   1 Health Technology,Pharmaceuticals: Major
+   1 Health Services,Medical/Nursing Services
+   1 Consumer Non-Durables,Beverages: Alcoholic
+

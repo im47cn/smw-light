@@ -29,7 +29,7 @@ def write_data(df2, data_type):
     df_ma.columns = ['data']
     print('df_ma:========\n%s' % df_ma)
 
-    filename = data_type+'.csv'
+    filename = 'data/'+data_type+'.csv'
     df_ma_csv = read_data(filename)
     print('df_ma_csv:\n%s' % df_ma_csv)
     if not df_ma_csv.empty:

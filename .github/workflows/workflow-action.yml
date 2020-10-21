@@ -3,49 +3,56 @@ name: "Netease signin"
 on:
   push:
     branches:
-      - develop
+      - master
   schedule:
-    - cron: "31,40,50 1 * * 1-5"
-    - cron: "*/10 2,5,6 * * 1-5"
-    - cron: "0,10,20,31 3 * * 1-5"
-    - cron: "31 7 * * 1-5"
+    - cron: "31 1 * * 1-5"
+    - cron: "0,30 2,5,6 * * 1-5"
+    - cron: "0,31 3 * * 1-5"
+    - cron: "0,31 7 * * 1-5"
 
 env:
   TZ: Asia/Shanghai
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-      - name: Setup system timezone
-        run: export TZ='Asia/Shanghai'
       - name: Setup timezone
-        uses: zcong1993/setup-timezone@master
-        with:
-          timezone: Asia/Shanghai
+        run: export TZ='Asia/Shanghai'
+      # - name: Setup timezone
+      #   uses: zcong1993/setup-timezone@master
+      #   with:
+      #     timezone: Asia/Shanghai
+      # - name: "Setup python 3.x"
+      #   uses: actions/setup-python@v2
+      #   with:
+      #     python-version: "3.9.0"
+      # - name: "Update pip3"
+      #   run: /opt/hostedtoolcache/Python/3.9.0/x64/bin/python -m pip install --upgrade pip
+      - name: "Install dependencies"
+        run: python -m pip install pandas requests beautifulsoup4 selenium
       - name: "Checkout codes"
         uses: actions/checkout@v2
-      - name: "Set python 3.8"
-        uses: actions/setup-python@v1
-        with:
-          python-version: "3.x"
-      - name: "Install dependencies"
-        run: python -m pip install --upgrade pandas requests
       - name: "Update smw data"
         env:
           SCAN_URL: ${{ secrets.SCAN_URL }}
           SCAN_PARAM: ${{ secrets.SCAN_PARAM }}
-        run: python scan_smw.py
+        run: python scripts/scan_smw.py
       - name: "Update long data"
         env:
           SCAN_URL: ${{ secrets.SCAN_URL }}
           BB_LONG_PARAM: ${{ secrets.BB_LONG_PARAM }}
-        run: python scan_bb_long.py
+        run: python scripts/scan_bb_long.py
       - name: "Update stochastic"
         env:
           SCAN_URL: ${{ secrets.SCAN_URL }}
           STOCHASTIC_PARAM: ${{ secrets.STOCHASTIC_PARAM }}
-        run: python scan_stochastic.py
+        run: python scripts/scan_stochastic.py
+      # - name: "Update huobi"
+      #   env:
+      #     HUOBI_BASE: ${{ secrets.HUOBI_BASE }}
+      #     HUOBI_URL: ${{ secrets.HUOBI_URL }}
+      #   run: python scripts/scan_huobi.py
       - name: "Commit"
         run: |
           git config --global user.name ${{ secrets.GIT_NAME }}
