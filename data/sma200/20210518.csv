@@ -1,0 +1,15 @@
+,sector,industry,code,name,RecommendMA,close,sma200,close_5,sma200_5,close_15,sma200_15,close_60,sma200_60,close_240,sma200_240,close_1w,sma200_1w,close_1m,sma200_1m,prepare_zone
+1,Producer Manufacturing,Auto Parts: OEM,200581,苏威孚Ｂ,0.93,16.75,14.69,16.75,16.44,16.75,16.60,16.75,16.37,16.75,15.51,16.75,15.07,16.75,,True
+4,Electronic Technology,Electronic Components,603489,八方股份,0.80,227.26,186.66,227.26,226.85,227.26,221.07,227.26,196.13,227.26,197.50,227.26,,227.26,,True
+5,Electronic Technology,Electronic Components,002913,奥士康,0.80,70.72,60.41,70.72,70.59,70.72,69.61,70.72,64.06,70.72,59.11,70.72,,70.72,,True
+6,Electronic Technology,Electronic Equipment/Instruments,688006,杭可科技,0.93,77.50,64.06,77.50,75.56,77.50,74.12,77.50,67.27,77.50,70.66,77.50,,77.50,,True
+11,Process Industries,Industrial Specialties,603737,三棵树,0.93,245.26,164.82,245.26,239.87,245.26,235.74,245.26,207.31,245.26,179.14,245.26,66.68,245.26,,True
+12,Technology Services,Information Technology Services,300454,深信服,0.93,284.99,235.83,284.99,269.98,284.99,265.01,284.99,262.14,284.99,262.76,284.99,,284.99,,True
+14,Health Technology,Medical Specialties,688198,佰仁医疗,0.93,173.80,106.29,173.80,161.84,173.80,160.44,173.80,149.46,173.80,118.13,173.80,,173.80,,True
+15,Health Technology,Medical Specialties,688016,心脉医疗,0.93,346.00,275.87,346.00,335.49,346.00,330.25,346.00,305.47,346.00,288.34,346.00,,346.00,,True
+17,Health Technology,Medical Specialties,688029,南微医学,0.93,251.31,206.47,251.31,244.78,251.31,229.98,251.31,208.46,251.31,195.08,251.31,,251.31,,True
+19,Commercial Services,Miscellaneous Commercial Services,688202,美迪西,0.80,433.81,214.37,433.81,418.72,433.81,385.09,433.81,339.34,433.81,272.11,433.81,,433.81,,True
+20,Technology Services,Packaged Software,688188,柏楚电子,0.80,348.76,267.47,348.76,345.38,348.76,341.90,348.76,314.56,348.76,295.82,348.76,,348.76,,True
+22,Technology Services,Packaged Software,688023,安恒信息,0.53,274.97,260.98,274.97,268.66,274.97,272.16,274.97,270.68,274.97,262.08,274.97,,274.97,,True
+23,Health Technology,Pharmaceuticals: Major,200028,一致Ｂ,0.93,23.42,22.45,23.42,23.04,23.42,22.78,23.42,22.63,23.42,22.14,23.42,28.84,23.42,,True
+24,Electronic Technology,Semiconductors,688368,晶丰明源,0.93,299.37,174.12,299.37,295.49,299.37,295.48,299.37,249.41,299.37,205.14,299.37,,299.37,,True
